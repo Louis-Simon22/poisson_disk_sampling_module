@@ -1,0 +1,3 @@
+[submodule "include/thinks/poisson-disk-sampling"]
+	path = include/thinks/poisson-disk-sampling
+	url = git@github.com:thinks/poisson-disk-sampling.git
