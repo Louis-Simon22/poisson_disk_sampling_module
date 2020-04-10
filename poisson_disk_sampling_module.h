@@ -12,8 +12,7 @@ struct Vector2Traits {
     return v[i];
   }
 
-  static void Set(Vector2 *const v, const std::size_t i,
-                            const ValueType val) {
+  static void Set(Vector2 *const v, const std::size_t i, const ValueType val) {
     (*v)[i] = val;
   }
 };
@@ -25,7 +24,7 @@ protected:
   static void _bind_methods();
 
 public:
-  Vector<Vector2> generate(real_t minimum_radius, Rect2 extents);
+  Vector<Vector2> generate2D(real_t minimum_distance, Rect2 extents);
 };
 
 #endif // POISSONDISKSAMPLINGMODULE_H
