@@ -24,7 +24,8 @@ protected:
   static void _bind_methods();
 
 public:
-  Vector<Vector2> generate2D(real_t minimum_distance, Rect2 extents);
+  Vector<Vector2> generate2D(real_t minimum_distance, int maximum_attempts,
+                             Rect2 extents);
 };
 
 #endif // POISSONDISKSAMPLINGMODULE_H
